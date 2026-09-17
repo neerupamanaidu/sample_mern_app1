@@ -9,4 +9,4 @@ router.post("/assignemployees",(req,res)=>{
 router.delete("/deleteemployees",(req,res)=>{
     res.send("Delete Employees router");
 })
-module.exports=routes
+module.exports=router;
