@@ -8,7 +8,13 @@ router.get("/viewemployees",async(req,res)=>{
 router.post("/assignemployees",(req,res)=>{
     res.send("Assign Employees router");
 })
-router.delete("/deleteemployees",(req,res)=>{
-    res.send("Delete Employees router");
+router.delete("/deleteemployee/:id",async(req,res)=>{
+    let result=await users.findByIdAndDelete(req.params.id)
+    if(result){
+    res.send("employee deleted success ");
+    }else{
+        res.send("no user found");
+    }
 })
+
 module.exports=router;
