@@ -1,0 +1,9 @@
+TASKS
+taskname
+desc
+assigned to(ID of user)
+assigned by(ID of user)
+duedate(date)
+status(pen,inpro,com)
+createat
+updateat
