@@ -1,9 +1,14 @@
-TASKS
-taskname
-desc
-assigned to(ID of user)
-assigned by(ID of user)
-duedate(date)
-status(pen,inpro,com)
-createat
-updateat
+syllabus:
+introduction &setup reactapp
+components
+individual pages
+routing(navigation)
+bootsrap
+prop&state
+forms
+lists+maps
+axios+rest api calls(will connect with our backend)
+JWT authentication
+CRUD operations
+develop yiur own project
+ 
